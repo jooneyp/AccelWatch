@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>AccelWatch WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>AccelWatch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>C567C0E51CC60D520041163F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C567C0F91CC60D530041163F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C567C1041CC60D530041163F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C567C10D1CC60D530041163F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C567C0EA1CC60D520041163F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C567C0E91CC60D520041163F /* AppDelegate.swift */; };
+		C567C0EC1CC60D520041163F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C567C0EB1CC60D520041163F /* ViewController.swift */; };
+		C567C0EF1CC60D520041163F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C567C0ED1CC60D520041163F /* Main.storyboard */; };
+		C567C0F11CC60D520041163F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C567C0F01CC60D520041163F /* Assets.xcassets */; };
+		C567C0F41CC60D520041163F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C567C0F21CC60D520041163F /* LaunchScreen.storyboard */; };
+		C567C0FF1CC60D530041163F /* AccelWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C567C0FE1CC60D530041163F /* AccelWatchTests.swift */; };
+		C567C10A1CC60D530041163F /* AccelWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C567C1091CC60D530041163F /* AccelWatchUITests.swift */; };
+		C567C10F1CC60D530041163F /* AccelWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C567C10E1CC60D530041163F /* AccelWatch WatchKit App.app */; };
+		C567C1151CC60D530041163F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C567C1131CC60D530041163F /* Interface.storyboard */; };
+		C567C1171CC60D530041163F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C567C1161CC60D530041163F /* Assets.xcassets */; };
+		C567C11E1CC60D530041163F /* AccelWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C567C11D1CC60D530041163F /* AccelWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C567C1231CC60D530041163F /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C567C1221CC60D530041163F /* InterfaceController.swift */; };
+		C567C1251CC60D530041163F /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C567C1241CC60D530041163F /* ExtensionDelegate.swift */; };
+		C567C1271CC60D530041163F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C567C1261CC60D530041163F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C567C0FB1CC60D530041163F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C567C0DE1CC60D520041163F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C567C0E51CC60D520041163F;
+			remoteInfo = AccelWatch;
+		};
+		C567C1061CC60D530041163F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C567C0DE1CC60D520041163F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C567C0E51CC60D520041163F;
+			remoteInfo = AccelWatch;
+		};
+		C567C1101CC60D530041163F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C567C0DE1CC60D520041163F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C567C10D1CC60D530041163F;
+			remoteInfo = "AccelWatch WatchKit App";
+		};
+		C567C11F1CC60D530041163F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C567C0DE1CC60D520041163F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C567C11C1CC60D530041163F;
+			remoteInfo = "AccelWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C567C12E1CC60D530041163F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C567C11E1CC60D530041163F /* AccelWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C567C1321CC60D530041163F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C567C10F1CC60D530041163F /* AccelWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C567C0E61CC60D520041163F /* AccelWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccelWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C567C0E91CC60D520041163F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C567C0EB1CC60D520041163F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C567C0EE1CC60D520041163F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C567C0F01CC60D520041163F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C567C0F31CC60D520041163F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C567C0F51CC60D520041163F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C567C0FA1CC60D530041163F /* AccelWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccelWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C567C0FE1CC60D530041163F /* AccelWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelWatchTests.swift; sourceTree = "<group>"; };
+		C567C1001CC60D530041163F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C567C1051CC60D530041163F /* AccelWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccelWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C567C1091CC60D530041163F /* AccelWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelWatchUITests.swift; sourceTree = "<group>"; };
+		C567C10B1CC60D530041163F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C567C10E1CC60D530041163F /* AccelWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AccelWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C567C1141CC60D530041163F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C567C1161CC60D530041163F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C567C1181CC60D530041163F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C567C11D1CC60D530041163F /* AccelWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AccelWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C567C1221CC60D530041163F /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C567C1241CC60D530041163F /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C567C1261CC60D530041163F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C567C1281CC60D530041163F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C567C0E31CC60D520041163F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C567C0F71CC60D530041163F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C567C1021CC60D530041163F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C567C11A1CC60D530041163F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C567C0DD1CC60D520041163F = {
+			isa = PBXGroup;
+			children = (
+				C567C0E81CC60D520041163F /* AccelWatch */,
+				C567C0FD1CC60D530041163F /* AccelWatchTests */,
+				C567C1081CC60D530041163F /* AccelWatchUITests */,
+				C567C1121CC60D530041163F /* AccelWatch WatchKit App */,
+				C567C1211CC60D530041163F /* AccelWatch WatchKit Extension */,
+				C567C0E71CC60D520041163F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C567C0E71CC60D520041163F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C567C0E61CC60D520041163F /* AccelWatch.app */,
+				C567C0FA1CC60D530041163F /* AccelWatchTests.xctest */,
+				C567C1051CC60D530041163F /* AccelWatchUITests.xctest */,
+				C567C10E1CC60D530041163F /* AccelWatch WatchKit App.app */,
+				C567C11D1CC60D530041163F /* AccelWatch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C567C0E81CC60D520041163F /* AccelWatch */ = {
+			isa = PBXGroup;
+			children = (
+				C567C0E91CC60D520041163F /* AppDelegate.swift */,
+				C567C0EB1CC60D520041163F /* ViewController.swift */,
+				C567C0ED1CC60D520041163F /* Main.storyboard */,
+				C567C0F01CC60D520041163F /* Assets.xcassets */,
+				C567C0F21CC60D520041163F /* LaunchScreen.storyboard */,
+				C567C0F51CC60D520041163F /* Info.plist */,
+			);
+			path = AccelWatch;
+			sourceTree = "<group>";
+		};
+		C567C0FD1CC60D530041163F /* AccelWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				C567C0FE1CC60D530041163F /* AccelWatchTests.swift */,
+				C567C1001CC60D530041163F /* Info.plist */,
+			);
+			path = AccelWatchTests;
+			sourceTree = "<group>";
+		};
+		C567C1081CC60D530041163F /* AccelWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C567C1091CC60D530041163F /* AccelWatchUITests.swift */,
+				C567C10B1CC60D530041163F /* Info.plist */,
+			);
+			path = AccelWatchUITests;
+			sourceTree = "<group>";
+		};
+		C567C1121CC60D530041163F /* AccelWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C567C1131CC60D530041163F /* Interface.storyboard */,
+				C567C1161CC60D530041163F /* Assets.xcassets */,
+				C567C1181CC60D530041163F /* Info.plist */,
+			);
+			path = "AccelWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		C567C1211CC60D530041163F /* AccelWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C567C1221CC60D530041163F /* InterfaceController.swift */,
+				C567C1241CC60D530041163F /* ExtensionDelegate.swift */,
+				C567C1261CC60D530041163F /* Assets.xcassets */,
+				C567C1281CC60D530041163F /* Info.plist */,
+			);
+			path = "AccelWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C567C0E51CC60D520041163F /* AccelWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C567C1331CC60D530041163F /* Build configuration list for PBXNativeTarget "AccelWatch" */;
+			buildPhases = (
+				C567C0E21CC60D520041163F /* Sources */,
+				C567C0E31CC60D520041163F /* Frameworks */,
+				C567C0E41CC60D520041163F /* Resources */,
+				C567C1321CC60D530041163F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C567C1111CC60D530041163F /* PBXTargetDependency */,
+			);
+			name = AccelWatch;
+			productName = AccelWatch;
+			productReference = C567C0E61CC60D520041163F /* AccelWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C567C0F91CC60D530041163F /* AccelWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C567C1361CC60D530041163F /* Build configuration list for PBXNativeTarget "AccelWatchTests" */;
+			buildPhases = (
+				C567C0F61CC60D530041163F /* Sources */,
+				C567C0F71CC60D530041163F /* Frameworks */,
+				C567C0F81CC60D530041163F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C567C0FC1CC60D530041163F /* PBXTargetDependency */,
+			);
+			name = AccelWatchTests;
+			productName = AccelWatchTests;
+			productReference = C567C0FA1CC60D530041163F /* AccelWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C567C1041CC60D530041163F /* AccelWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C567C1391CC60D530041163F /* Build configuration list for PBXNativeTarget "AccelWatchUITests" */;
+			buildPhases = (
+				C567C1011CC60D530041163F /* Sources */,
+				C567C1021CC60D530041163F /* Frameworks */,
+				C567C1031CC60D530041163F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C567C1071CC60D530041163F /* PBXTargetDependency */,
+			);
+			name = AccelWatchUITests;
+			productName = AccelWatchUITests;
+			productReference = C567C1051CC60D530041163F /* AccelWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C567C10D1CC60D530041163F /* AccelWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C567C12F1CC60D530041163F /* Build configuration list for PBXNativeTarget "AccelWatch WatchKit App" */;
+			buildPhases = (
+				C567C10C1CC60D530041163F /* Resources */,
+				C567C12E1CC60D530041163F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C567C1201CC60D530041163F /* PBXTargetDependency */,
+			);
+			name = "AccelWatch WatchKit App";
+			productName = "AccelWatch WatchKit App";
+			productReference = C567C10E1CC60D530041163F /* AccelWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C567C11C1CC60D530041163F /* AccelWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C567C12B1CC60D530041163F /* Build configuration list for PBXNativeTarget "AccelWatch WatchKit Extension" */;
+			buildPhases = (
+				C567C1191CC60D530041163F /* Sources */,
+				C567C11A1CC60D530041163F /* Frameworks */,
+				C567C11B1CC60D530041163F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AccelWatch WatchKit Extension";
+			productName = "AccelWatch WatchKit Extension";
+			productReference = C567C11D1CC60D530041163F /* AccelWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C567C0DE1CC60D520041163F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jooneyp;
+				TargetAttributes = {
+					C567C0E51CC60D520041163F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					C567C0F91CC60D530041163F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C567C0E51CC60D520041163F;
+					};
+					C567C1041CC60D530041163F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C567C0E51CC60D520041163F;
+					};
+					C567C10D1CC60D530041163F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					C567C11C1CC60D530041163F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = C567C0E11CC60D520041163F /* Build configuration list for PBXProject "AccelWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C567C0DD1CC60D520041163F;
+			productRefGroup = C567C0E71CC60D520041163F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C567C0E51CC60D520041163F /* AccelWatch */,
+				C567C0F91CC60D530041163F /* AccelWatchTests */,
+				C567C1041CC60D530041163F /* AccelWatchUITests */,
+				C567C10D1CC60D530041163F /* AccelWatch WatchKit App */,
+				C567C11C1CC60D530041163F /* AccelWatch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C567C0E41CC60D520041163F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C567C0F41CC60D520041163F /* LaunchScreen.storyboard in Resources */,
+				C567C0F11CC60D520041163F /* Assets.xcassets in Resources */,
+				C567C0EF1CC60D520041163F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C567C0F81CC60D530041163F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C567C1031CC60D530041163F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C567C10C1CC60D530041163F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C567C1171CC60D530041163F /* Assets.xcassets in Resources */,
+				C567C1151CC60D530041163F /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C567C11B1CC60D530041163F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C567C1271CC60D530041163F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C567C0E21CC60D520041163F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C567C0EC1CC60D520041163F /* ViewController.swift in Sources */,
+				C567C0EA1CC60D520041163F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C567C0F61CC60D530041163F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C567C0FF1CC60D530041163F /* AccelWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C567C1011CC60D530041163F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C567C10A1CC60D530041163F /* AccelWatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C567C1191CC60D530041163F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C567C1251CC60D530041163F /* ExtensionDelegate.swift in Sources */,
+				C567C1231CC60D530041163F /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C567C0FC1CC60D530041163F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C567C0E51CC60D520041163F /* AccelWatch */;
+			targetProxy = C567C0FB1CC60D530041163F /* PBXContainerItemProxy */;
+		};
+		C567C1071CC60D530041163F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C567C0E51CC60D520041163F /* AccelWatch */;
+			targetProxy = C567C1061CC60D530041163F /* PBXContainerItemProxy */;
+		};
+		C567C1111CC60D530041163F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C567C10D1CC60D530041163F /* AccelWatch WatchKit App */;
+			targetProxy = C567C1101CC60D530041163F /* PBXContainerItemProxy */;
+		};
+		C567C1201CC60D530041163F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C567C11C1CC60D530041163F /* AccelWatch WatchKit Extension */;
+			targetProxy = C567C11F1CC60D530041163F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C567C0ED1CC60D520041163F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C567C0EE1CC60D520041163F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C567C0F21CC60D520041163F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C567C0F31CC60D520041163F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C567C1131CC60D530041163F /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C567C1141CC60D530041163F /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C567C1291CC60D530041163F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C567C12A1CC60D530041163F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C567C12C1CC60D530041163F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AccelWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jooneyp.AccelWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		C567C12D1CC60D530041163F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AccelWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jooneyp.AccelWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		C567C1301CC60D530041163F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = AccelWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "AccelWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jooneyp.AccelWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		C567C1311CC60D530041163F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = AccelWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "AccelWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jooneyp.AccelWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		C567C1341CC60D530041163F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AccelWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jooneyp.AccelWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C567C1351CC60D530041163F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AccelWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jooneyp.AccelWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C567C1371CC60D530041163F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AccelWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jooneyp.AccelWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccelWatch.app/AccelWatch";
+			};
+			name = Debug;
+		};
+		C567C1381CC60D530041163F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AccelWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jooneyp.AccelWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccelWatch.app/AccelWatch";
+			};
+			name = Release;
+		};
+		C567C13A1CC60D530041163F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AccelWatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jooneyp.AccelWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AccelWatch;
+			};
+			name = Debug;
+		};
+		C567C13B1CC60D530041163F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AccelWatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jooneyp.AccelWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AccelWatch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C567C0E11CC60D520041163F /* Build configuration list for PBXProject "AccelWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C567C1291CC60D530041163F /* Debug */,
+				C567C12A1CC60D530041163F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C567C12B1CC60D530041163F /* Build configuration list for PBXNativeTarget "AccelWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C567C12C1CC60D530041163F /* Debug */,
+				C567C12D1CC60D530041163F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C567C12F1CC60D530041163F /* Build configuration list for PBXNativeTarget "AccelWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C567C1301CC60D530041163F /* Debug */,
+				C567C1311CC60D530041163F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C567C1331CC60D530041163F /* Build configuration list for PBXNativeTarget "AccelWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C567C1341CC60D530041163F /* Debug */,
+				C567C1351CC60D530041163F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C567C1361CC60D530041163F /* Build configuration list for PBXNativeTarget "AccelWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C567C1371CC60D530041163F /* Debug */,
+				C567C1381CC60D530041163F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C567C1391CC60D530041163F /* Build configuration list for PBXNativeTarget "AccelWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C567C13A1CC60D530041163F /* Debug */,
+				C567C13B1CC60D530041163F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C567C0DE1CC60D520041163F /* Project object */;
+}
