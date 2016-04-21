@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.dataToCSV(NSArray) -&gt; String:ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "tData[i].count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.(session(WCSession, didReceiveMessage : [String : AnyObject], replyHandler : ([String : AnyObject]) -&gt; ()) -&gt; ()).(closure #2):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "tableData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.session(WCSession, didReceiveMessage : [String : AnyObject], replyHandler : ([String : AnyObject]) -&gt; ()) -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "value[0].count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "InterfaceController.(willActivate() -&gt; ()).(closure #1):InterfaceController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "stamp">
+            </PersistentString>
+            <PersistentString
+               value = "self.flag">
+            </PersistentString>
+            <PersistentString
+               value = "self.sec">
+            </PersistentString>
+            <PersistentString
+               value = "self.min">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "InterfaceController.sendBtnTapped() -&gt; ():InterfaceController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "appAccData.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

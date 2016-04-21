@@ -5,6 +5,50 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C567C10D1CC60D530041163F"
+               BuildableName = "AccelWatch WatchKit App.app"
+               BlueprintName = "AccelWatch WatchKit App"
+               ReferencedContainer = "container:AccelWatch.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C567C0E51CC60D520041163F"
+               BuildableName = "AccelWatch.app"
+               BlueprintName = "AccelWatch"
+               ReferencedContainer = "container:AccelWatch.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C567C11C1CC60D530041163F"
+               BuildableName = "AccelWatch WatchKit Extension.appex"
+               BlueprintName = "AccelWatch WatchKit Extension"
+               ReferencedContainer = "container:AccelWatch.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -13,6 +57,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C567C10D1CC60D530041163F"
+            BuildableName = "AccelWatch WatchKit App.app"
+            BlueprintName = "AccelWatch WatchKit App"
+            ReferencedContainer = "container:AccelWatch.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,7 +79,33 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/AccelWatch WatchKit App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C567C10D1CC60D530041163F"
+            BuildableName = "AccelWatch WatchKit App.app"
+            BlueprintName = "AccelWatch WatchKit App"
+            ReferencedContainer = "container:AccelWatch.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C567C10D1CC60D530041163F"
+            BuildableName = "AccelWatch WatchKit App.app"
+            BlueprintName = "AccelWatch WatchKit App"
+            ReferencedContainer = "container:AccelWatch.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
+         <AdditionalOption
+            key = "USERBREAK"
+            value = "1"
+            isEnabled = "YES">
+         </AdditionalOption>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
@@ -35,6 +114,27 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/AccelWatch WatchKit App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C567C10D1CC60D530041163F"
+            BuildableName = "AccelWatch WatchKit App.app"
+            BlueprintName = "AccelWatch WatchKit App"
+            ReferencedContainer = "container:AccelWatch.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C567C10D1CC60D530041163F"
+            BuildableName = "AccelWatch WatchKit App.app"
+            BlueprintName = "AccelWatch WatchKit App"
+            ReferencedContainer = "container:AccelWatch.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

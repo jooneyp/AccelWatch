@@ -102,6 +102,9 @@
 		C567C1241CC60D530041163F /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		C567C1261CC60D530041163F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C567C1281CC60D530041163F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C567C13C1CC60D630041163F /* AccelWatch WatchKit App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "AccelWatch WatchKit App.entitlements"; sourceTree = "<group>"; };
+		C567C13D1CC60D6E0041163F /* AccelWatch WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "AccelWatch WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		C567C13E1CC60D750041163F /* AccelWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AccelWatch.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +166,7 @@
 		C567C0E81CC60D520041163F /* AccelWatch */ = {
 			isa = PBXGroup;
 			children = (
+				C567C13E1CC60D750041163F /* AccelWatch.entitlements */,
 				C567C0E91CC60D520041163F /* AppDelegate.swift */,
 				C567C0EB1CC60D520041163F /* ViewController.swift */,
 				C567C0ED1CC60D520041163F /* Main.storyboard */,
@@ -194,6 +198,7 @@
 		C567C1121CC60D530041163F /* AccelWatch WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				C567C13C1CC60D630041163F /* AccelWatch WatchKit App.entitlements */,
 				C567C1131CC60D530041163F /* Interface.storyboard */,
 				C567C1161CC60D530041163F /* Assets.xcassets */,
 				C567C1181CC60D530041163F /* Info.plist */,
@@ -204,6 +209,7 @@
 		C567C1211CC60D530041163F /* AccelWatch WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				C567C13D1CC60D6E0041163F /* AccelWatch WatchKit Extension.entitlements */,
 				C567C1221CC60D530041163F /* InterfaceController.swift */,
 				C567C1241CC60D530041163F /* ExtensionDelegate.swift */,
 				C567C1261CC60D530041163F /* Assets.xcassets */,
@@ -316,6 +322,21 @@
 				TargetAttributes = {
 					C567C0E51CC60D520041163F = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = XAG784J6JG;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					C567C0F91CC60D530041163F = {
 						CreatedOnToolsVersion = 7.3;
@@ -327,9 +348,21 @@
 					};
 					C567C10D1CC60D530041163F = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = XAG784J6JG;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					C567C11C1CC60D530041163F = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = XAG784J6JG;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -573,6 +606,7 @@
 		C567C12C1CC60D530041163F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "AccelWatch WatchKit Extension/AccelWatch WatchKit Extension.entitlements";
 				INFOPLIST_FILE = "AccelWatch WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jooneyp.AccelWatch.watchkitapp.watchkitextension;
@@ -587,6 +621,7 @@
 		C567C12D1CC60D530041163F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "AccelWatch WatchKit Extension/AccelWatch WatchKit Extension.entitlements";
 				INFOPLIST_FILE = "AccelWatch WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jooneyp.AccelWatch.watchkitapp.watchkitextension;
@@ -602,6 +637,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "AccelWatch WatchKit App/AccelWatch WatchKit App.entitlements";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = AccelWatch_WatchKit_Extension;
 				INFOPLIST_FILE = "AccelWatch WatchKit App/Info.plist";
@@ -618,6 +654,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "AccelWatch WatchKit App/AccelWatch WatchKit App.entitlements";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = AccelWatch_WatchKit_Extension;
 				INFOPLIST_FILE = "AccelWatch WatchKit App/Info.plist";
@@ -634,6 +671,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AccelWatch/AccelWatch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AccelWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jooneyp.AccelWatch;
@@ -645,6 +684,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AccelWatch/AccelWatch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AccelWatch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jooneyp.AccelWatch;
@@ -717,6 +758,7 @@
 				C567C12D1CC60D530041163F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C567C12F1CC60D530041163F /* Build configuration list for PBXNativeTarget "AccelWatch WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -725,6 +767,7 @@
 				C567C1311CC60D530041163F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C567C1331CC60D530041163F /* Build configuration list for PBXNativeTarget "AccelWatch" */ = {
 			isa = XCConfigurationList;
@@ -733,6 +776,7 @@
 				C567C1351CC60D530041163F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C567C1361CC60D530041163F /* Build configuration list for PBXNativeTarget "AccelWatchTests" */ = {
 			isa = XCConfigurationList;
@@ -741,6 +785,7 @@
 				C567C1381CC60D530041163F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C567C1391CC60D530041163F /* Build configuration list for PBXNativeTarget "AccelWatchUITests" */ = {
 			isa = XCConfigurationList;
@@ -749,6 +794,7 @@
 				C567C13B1CC60D530041163F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
